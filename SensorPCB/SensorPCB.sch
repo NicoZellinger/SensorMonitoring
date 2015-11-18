@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,13 +39,13 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -7097,16 +7097,12 @@ http://www.zetex.com&lt;p&gt;
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="T1" library="zetex" deviceset="NMOSSOT223" device=""/>
-<part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R1206" value="?"/>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R1206" value="150"/>
 <part name="U$5" library="CAP_TANTAL_1206" deviceset="CAP_TANTAL_1206" device="" value="47u"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X7" device="_2.54-SMD"/>
 <part name="FRAME2" library="frames" deviceset="DINA3_L" device=""/>
 <part name="T2" library="zetex" deviceset="NMOSSOT223" device=""/>
-<part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="?"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="?"/>
 <part name="G1" library="battery" deviceset="B2430UNI" device=""/>
@@ -7127,7 +7123,6 @@ http://www.zetex.com&lt;p&gt;
 -wlan_modul
 </text>
 <text x="342.9" y="246.38" size="2.54" layer="91" rot="R180">WLAN-module</text>
-<text x="342.9" y="152.4" size="2.54" layer="91" rot="R180">Sensor-module</text>
 <text x="35.56" y="180.34" size="2.54" layer="91">Voltage supply Battery</text>
 <text x="40.64" y="99.06" size="2.54" layer="91">Microcontroller</text>
 <text x="162.56" y="180.34" size="2.54" layer="91">FET</text>
@@ -7147,21 +7142,17 @@ http://www.zetex.com&lt;p&gt;
 <instance part="+3V8" gate="G$1" x="165.1" y="241.3"/>
 <instance part="+3V13" gate="G$1" x="165.1" y="215.9" rot="R90"/>
 <instance part="SUPPLY5" gate="GND" x="172.72" y="218.44" rot="R270"/>
-<instance part="T1" gate="A" x="182.88" y="149.86"/>
-<instance part="SUPPLY11" gate="GND" x="182.88" y="139.7"/>
-<instance part="R9" gate="G$1" x="182.88" y="165.1" rot="R90"/>
-<instance part="+3V17" gate="G$1" x="182.88" y="175.26"/>
-<instance part="R10" gate="G$1" x="170.18" y="147.32" rot="R180"/>
+<instance part="T1" gate="A" x="170.18" y="154.94" rot="R90"/>
+<instance part="+3V17" gate="G$1" x="162.56" y="165.1"/>
+<instance part="R10" gate="G$1" x="172.72" y="142.24" rot="R270"/>
 <instance part="U$5" gate="G$1" x="58.42" y="223.52"/>
 <instance part="JP1" gate="A" x="193.04" y="218.44"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="287.02" y="0"/>
-<instance part="T2" gate="A" x="182.88" y="99.06"/>
-<instance part="SUPPLY1" gate="GND" x="182.88" y="88.9"/>
-<instance part="R1" gate="G$1" x="182.88" y="114.3" rot="R90"/>
-<instance part="+3V1" gate="G$1" x="182.88" y="124.46"/>
-<instance part="R2" gate="G$1" x="170.18" y="96.52" rot="R180"/>
-<instance part="G1" gate="G$1" x="119.38" y="86.36"/>
+<instance part="T2" gate="A" x="170.18" y="109.22" rot="R90"/>
+<instance part="+3V1" gate="G$1" x="162.56" y="119.38"/>
+<instance part="R2" gate="G$1" x="172.72" y="96.52" rot="R270"/>
+<instance part="G1" gate="G$1" x="-25.4" y="236.22"/>
 <instance part="U$1" gate="G$1" x="81.28" y="228.6"/>
 <instance part="U$2" gate="G$1" x="332.74" y="223.52"/>
 <instance part="SUPPLY3" gate="GND" x="363.22" y="218.44" rot="R90"/>
@@ -7203,16 +7194,6 @@ http://www.zetex.com&lt;p&gt;
 <pinref part="JP1" gate="A" pin="4"/>
 </segment>
 <segment>
-<pinref part="T1" gate="A" pin="S"/>
-<wire x1="182.88" y1="144.78" x2="182.88" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="SUPPLY11" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="T2" gate="A" pin="S"/>
-<wire x1="182.88" y1="93.98" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="347.98" y1="218.44" x2="360.68" y2="218.44" width="0.1524" layer="91"/>
 <label x="350.52" y="218.44" size="1.778" layer="95"/>
@@ -7246,14 +7227,16 @@ http://www.zetex.com&lt;p&gt;
 <pinref part="JP1" gate="A" pin="5"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="170.18" x2="182.88" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="+3V17" gate="G$1" pin="+3V3"/>
+<pinref part="T1" gate="A" pin="D"/>
+<wire x1="165.1" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="154.94" x2="162.56" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="119.38" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<wire x1="165.1" y1="109.22" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="109.22" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="T2" gate="A" pin="D"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -7336,13 +7319,9 @@ http://www.zetex.com&lt;p&gt;
 </net>
 <net name="VDD_WLAN" class="0">
 <segment>
-<pinref part="T1" gate="A" pin="D"/>
-<wire x1="182.88" y1="154.94" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="157.48" x2="182.88" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="157.48" x2="203.2" y2="157.48" width="0.1524" layer="91"/>
-<junction x="182.88" y="157.48"/>
-<label x="190.5" y="157.48" size="1.778" layer="95"/>
+<wire x1="175.26" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
+<label x="180.34" y="154.94" size="1.778" layer="95"/>
+<pinref part="T1" gate="A" pin="S"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VCC"/>
@@ -7353,40 +7332,27 @@ http://www.zetex.com&lt;p&gt;
 <net name="SW_WLAN" class="0">
 <segment>
 <pinref part="T1" gate="A" pin="G"/>
-<label x="149.86" y="147.32" size="1.778" layer="95"/>
-<wire x1="177.8" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="149.86" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 </segment>
-</net>
-<net name="N$6" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="147.32" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VDD_SENSOR" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<label x="187.96" y="106.68" size="1.778" layer="95"/>
-<pinref part="T2" gate="A" pin="D"/>
-<wire x1="182.88" y1="109.22" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="106.68" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
-<junction x="182.88" y="106.68"/>
+<wire x1="172.72" y1="137.16" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
+<label x="172.72" y="124.46" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="T2" gate="A" pin="G"/>
-<wire x1="175.26" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="101.6" x2="172.72" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SW_SENSOR" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="96.52" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
-<label x="149.86" y="96.52" size="1.778" layer="95"/>
+<wire x1="172.72" y1="91.44" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
+<label x="172.72" y="76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -7527,6 +7493,13 @@ http://www.zetex.com&lt;p&gt;
 <pinref part="U$2" gate="G$1" pin="TX"/>
 <wire x1="347.98" y1="236.22" x2="360.68" y2="236.22" width="0.1524" layer="91"/>
 <label x="350.52" y="236.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD_SENSOR" class="0">
+<segment>
+<pinref part="T2" gate="A" pin="S"/>
+<wire x1="175.26" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
+<label x="182.88" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
