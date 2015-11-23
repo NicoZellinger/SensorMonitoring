@@ -7470,7 +7470,10 @@ STM32L051x8</text>
 -?FET-Resistor
 -?Resonator Cap
 -Battery
+-Layout_bohrungen
 
+
+Optional LED
 </text>
 <text x="342.9" y="246.38" size="2.54" layer="91" rot="R180">WLAN-module</text>
 <text x="35.56" y="180.34" size="2.54" layer="91">Voltage supply Battery</text>

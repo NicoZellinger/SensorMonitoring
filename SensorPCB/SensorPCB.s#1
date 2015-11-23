@@ -7461,7 +7461,7 @@ STM32L051x8</text>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R1206" value="390"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R1206" value="560"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>

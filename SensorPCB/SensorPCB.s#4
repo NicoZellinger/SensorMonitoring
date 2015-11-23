@@ -7298,6 +7298,98 @@ STM32L051x8</text>
 </deviceset>
 </devicesets>
 </library>
+<library name="quarz_hc49_smd">
+<packages>
+<package name="HC49-SMD">
+<wire x1="-5.1091" y1="1.143" x2="-3.429" y2="2.0321" width="0.0508" layer="21" curve="-55.770993"/>
+<wire x1="-5.715" y1="1.143" x2="-5.715" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="2.032" x2="5.1091" y2="1.143" width="0.0508" layer="21" curve="-55.772485"/>
+<wire x1="5.715" y1="1.143" x2="5.715" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="-1.27" x2="-3.429" y2="-1.27" width="0.0508" layer="21"/>
+<wire x1="3.429" y1="-2.032" x2="-3.429" y2="-2.032" width="0.0508" layer="21"/>
+<wire x1="-3.429" y1="1.27" x2="3.429" y2="1.27" width="0.0508" layer="21"/>
+<wire x1="5.461" y1="-2.413" x2="-5.461" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-0.381" x2="6.477" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="5.715" y1="0.381" x2="6.477" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="6.477" y1="-0.381" x2="6.477" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="5.461" y1="-2.413" x2="5.715" y2="-2.159" width="0.1524" layer="21" curve="90"/>
+<wire x1="5.715" y1="-1.143" x2="5.715" y2="1.143" width="0.1524" layer="51"/>
+<wire x1="5.715" y1="-2.159" x2="5.715" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="-1.27" x2="3.9826" y2="-1.143" width="0.0508" layer="21" curve="25.842828"/>
+<wire x1="3.429" y1="1.27" x2="3.9826" y2="1.143" width="0.0508" layer="21" curve="-25.842828"/>
+<wire x1="3.429" y1="-2.032" x2="5.109" y2="-1.1429" width="0.0508" layer="21" curve="55.771157"/>
+<wire x1="3.9826" y1="-1.143" x2="3.9826" y2="1.143" width="0.0508" layer="51" curve="128.314524"/>
+<wire x1="5.1091" y1="-1.143" x2="5.1091" y2="1.143" width="0.0508" layer="51" curve="68.456213"/>
+<wire x1="-5.1091" y1="-1.143" x2="-3.429" y2="-2.032" width="0.0508" layer="21" curve="55.772485"/>
+<wire x1="-3.9826" y1="-1.143" x2="-3.9826" y2="1.143" width="0.0508" layer="51" curve="-128.314524"/>
+<wire x1="-3.9826" y1="-1.143" x2="-3.429" y2="-1.27" width="0.0508" layer="21" curve="25.842828"/>
+<wire x1="-3.9826" y1="1.143" x2="-3.429" y2="1.27" width="0.0508" layer="21" curve="-25.842828"/>
+<wire x1="-6.477" y1="-0.381" x2="-6.477" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-5.1091" y1="-1.143" x2="-5.1091" y2="1.143" width="0.0508" layer="51" curve="-68.456213"/>
+<wire x1="-5.715" y1="-1.143" x2="-5.715" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-5.715" y1="-0.381" x2="-5.715" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-5.715" y1="0.381" x2="-5.715" y2="1.143" width="0.1524" layer="51"/>
+<wire x1="-5.715" y1="-2.159" x2="-5.715" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="-2.159" x2="-5.461" y2="-2.413" width="0.1524" layer="21" curve="90"/>
+<wire x1="-5.715" y1="-0.381" x2="-6.477" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-5.715" y1="0.381" x2="-6.477" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-3.429" y1="2.032" x2="3.429" y2="2.032" width="0.0508" layer="21"/>
+<wire x1="5.461" y1="2.413" x2="-5.461" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="5.461" y1="2.413" x2="5.715" y2="2.159" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-5.715" y1="2.159" x2="-5.461" y2="2.413" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.254" y1="0.635" x2="-0.254" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-0.635" x2="0.254" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="-0.635" x2="0.254" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="0.635" x2="-0.254" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-1.016" y2="0" width="0.0508" layer="21"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.016" y2="0" width="0.0508" layer="21"/>
+<smd name="1" x="-4.826" y="0" dx="5.334" dy="1.9304" layer="1"/>
+<smd name="2" x="4.826" y="0" dx="5.334" dy="1.9304" layer="1"/>
+<text x="-5.715" y="2.794" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.715" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="QUARZ_HC49-SMD">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="QUARZ_HC49-SMD">
+<gates>
+<gate name="G$1" symbol="QUARZ_HC49-SMD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HC49-SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7352,7 +7444,7 @@ STM32L051x8</text>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C1206" value="1u"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C1206" value="10u"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
@@ -7362,24 +7454,31 @@ STM32L051x8</text>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="10u"/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
+<part name="U$2" library="quarz_hc49_smd" deviceset="QUARZ_HC49-SMD" device=""/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
+<part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="40.64" y="243.84" size="2.54" layer="91">Voltage supply USB</text>
-<text x="213.36" y="246.38" size="2.54" layer="91" rot="R180">Debugging and Programming</text>
 <text x="-30.48" y="246.38" size="1.778" layer="94">TODO
 
--FET-Resistor
--MCU with resonator
+-?FET-Resistor
+-?Resonator Cap
 -Battery
 
 </text>
 <text x="342.9" y="246.38" size="2.54" layer="91" rot="R180">WLAN-module</text>
 <text x="35.56" y="180.34" size="2.54" layer="91">Voltage supply Battery</text>
-<text x="53.34" y="129.54" size="2.54" layer="91">Microcontroller</text>
+<text x="35.56" y="132.08" size="2.54" layer="91">Microcontroller</text>
 <text x="162.56" y="180.34" size="2.54" layer="91">FET</text>
 <text x="312.42" y="154.94" size="2.54" layer="91">Sensor Breakout</text>
+<text x="167.64" y="246.38" size="1.778" layer="91">UART Debugging</text>
+<text x="198.12" y="231.14" size="1.778" layer="91">SWD Programming</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="27.94" y="220.98"/>
@@ -7394,8 +7493,8 @@ STM32L051x8</text>
 <instance part="R4" gate="G$1" x="172.72" y="231.14" rot="R90"/>
 <instance part="R5" gate="G$1" x="165.1" y="231.14" rot="R90"/>
 <instance part="+3V8" gate="G$1" x="165.1" y="241.3"/>
-<instance part="+3V13" gate="G$1" x="165.1" y="215.9" rot="R90"/>
-<instance part="SUPPLY5" gate="GND" x="172.72" y="218.44" rot="R270"/>
+<instance part="+3V13" gate="G$1" x="215.9" y="215.9" rot="R270"/>
+<instance part="SUPPLY5" gate="GND" x="205.74" y="218.44" rot="R90"/>
 <instance part="+3V17" gate="G$1" x="185.42" y="182.88"/>
 <instance part="R10" gate="G$1" x="147.32" y="160.02" rot="R180"/>
 <instance part="U$5" gate="G$1" x="58.42" y="223.52"/>
@@ -7428,8 +7527,8 @@ STM32L051x8</text>
 <instance part="SUPPLY14" gate="GND" x="48.26" y="116.84" rot="R180"/>
 <instance part="+3V14" gate="G$1" x="20.32" y="88.9" rot="R90"/>
 <instance part="C9" gate="G$1" x="17.78" y="50.8"/>
-<instance part="C10" gate="G$1" x="22.86" y="58.42" rot="R270"/>
-<instance part="SUPPLY16" gate="GND" x="12.7" y="58.42" rot="R270"/>
+<instance part="C10" gate="G$1" x="27.94" y="58.42" rot="R270"/>
+<instance part="SUPPLY16" gate="GND" x="17.78" y="58.42" rot="R270"/>
 <instance part="+3V16" gate="G$1" x="10.16" y="45.72" rot="R90"/>
 <instance part="SUPPLY15" gate="GND" x="12.7" y="53.34" rot="R270"/>
 <instance part="C3" gate="G$1" x="121.92" y="83.82" rot="R180"/>
@@ -7438,6 +7537,12 @@ STM32L051x8</text>
 <instance part="C5" gate="G$1" x="96.52" y="10.16" rot="R90"/>
 <instance part="+3V6" gate="G$1" x="101.6" y="2.54" rot="R180"/>
 <instance part="SUPPLY11" gate="GND" x="93.98" y="5.08"/>
+<instance part="U$2" gate="G$1" x="27.94" y="76.2" rot="R90"/>
+<instance part="C4" gate="G$1" x="22.86" y="73.66" rot="R270"/>
+<instance part="C6" gate="G$1" x="22.86" y="78.74" rot="R270"/>
+<instance part="SUPPLY10" gate="GND" x="12.7" y="73.66" rot="R270"/>
+<instance part="SUPPLY12" gate="GND" x="12.7" y="78.74" rot="R270"/>
+<instance part="SUPPLY13" gate="GND" x="172.72" y="220.98" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -7466,14 +7571,9 @@ STM32L051x8</text>
 <wire x1="81.28" y1="213.36" x2="81.28" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="218.44" x2="175.26" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="220.98" x2="175.26" y2="220.98" width="0.1524" layer="91"/>
-<label x="175.26" y="220.98" size="1.778" layer="95"/>
-<wire x1="175.26" y1="218.44" x2="175.26" y2="220.98" width="0.1524" layer="91"/>
-<junction x="175.26" y="218.44"/>
-<pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<pinref part="JP1" gate="A" pin="3"/>
 <pinref part="JP1" gate="A" pin="4"/>
+<wire x1="190.5" y1="218.44" x2="203.2" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <wire x1="347.98" y1="210.82" x2="360.68" y2="210.82" width="0.1524" layer="91"/>
@@ -7512,7 +7612,7 @@ STM32L051x8</text>
 <segment>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="58.42" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="1"/>
@@ -7540,6 +7640,22 @@ STM32L051x8</text>
 <wire x1="93.98" y1="10.16" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
 <junction x="93.98" y="10.16"/>
 </segment>
+<segment>
+<pinref part="SUPPLY12" gate="GND" pin="GND"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="78.74" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY10" gate="GND" pin="GND"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="190.5" y1="220.98" x2="175.26" y2="220.98" width="0.1524" layer="91"/>
+<label x="175.26" y="220.98" size="1.778" layer="95"/>
+<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="SUPPLY13" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -7563,7 +7679,7 @@ STM32L051x8</text>
 <wire x1="165.1" y1="238.76" x2="165.1" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="215.9" x2="167.64" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="215.9" x2="213.36" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
 <pinref part="JP1" gate="A" pin="5"/>
 </segment>
@@ -7691,16 +7807,16 @@ STM32L051x8</text>
 </net>
 <net name="SWCLK" class="0">
 <segment>
-<wire x1="190.5" y1="210.82" x2="177.8" y2="210.82" width="0.1524" layer="91"/>
-<label x="185.42" y="210.82" size="1.778" layer="95" rot="MR0"/>
+<wire x1="190.5" y1="210.82" x2="213.36" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="7"/>
+<label x="203.2" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<wire x1="190.5" y1="213.36" x2="177.8" y2="213.36" width="0.1524" layer="91"/>
-<label x="177.8" y="213.36" size="1.778" layer="95"/>
+<wire x1="190.5" y1="213.36" x2="213.36" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="6"/>
+<label x="203.2" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -7950,7 +8066,27 @@ STM32L051x8</text>
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="U$6" gate="G$1" pin="NRST"/>
-<wire x1="33.02" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="OSC32_OUT"/>
+<wire x1="33.02" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="U$2" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<junction x="27.94" y="73.66"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="OSC32_IN"/>
+<wire x1="33.02" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="U$2" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="78.74" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
+<junction x="27.94" y="78.74"/>
 </segment>
 </net>
 </nets>
