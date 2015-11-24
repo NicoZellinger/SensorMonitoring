@@ -2,3 +2,8 @@
 /datasheets/
 /old/
 /SensorPCB/library/
+
+# eagle
+*.s#?
+*.b#?
+*.l#?
