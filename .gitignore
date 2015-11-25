@@ -1,7 +1,6 @@
 # Ordner
-/datasheets/
 /old/
-/SensorPCB/library/
+/datasheets/not_public/
 
 # eagle
 *.s#?
