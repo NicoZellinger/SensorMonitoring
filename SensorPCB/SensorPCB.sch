@@ -7637,7 +7637,9 @@ STM32L051x8</text>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X7" device="_2.54-SMD"/>
 <part name="FRAME2" library="frames" deviceset="DINA3_L" device=""/>
 <part name="G1" library="battery" deviceset="B2430UNI" device=""/>
-<part name="U$1" library="lm3940" deviceset="LM3940" device=""/>
+<part name="U$1" library="lm3940" deviceset="LM3940" device="">
+<attribute name="WEBSITE" value="http://www.reichelt.de/LM-3940-IS3-3/3/index.html?&amp;ACTION=3&amp;LA=446&amp;ARTICLE=109408&amp;artnr=LM+3940+IS3%2C3&amp;SEARCH=SPANNUNGsregler+3%2C3v"/>
+</part>
 <part name="U$3" library="irf7301_symb" deviceset="IRF7301" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
@@ -7691,8 +7693,6 @@ STM32L051x8</text>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="20p"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="20p"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="390"/>
@@ -7700,6 +7700,7 @@ STM32L051x8</text>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
+<part name="P+1" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7711,13 +7712,13 @@ STM32L051x8</text>
 -Optional LED
 -change R and C to 0805</text>
 <text x="342.9" y="246.38" size="2.54" layer="91" rot="R180">WLAN-module</text>
-<text x="35.56" y="180.34" size="2.54" layer="91">Voltage supply Battery</text>
+<text x="35.56" y="190.5" size="2.54" layer="91">Voltage supply Battery</text>
 <text x="35.56" y="132.08" size="2.54" layer="91">Microcontroller</text>
 <text x="215.9" y="190.5" size="2.54" layer="91">FET</text>
 <text x="320.04" y="160.02" size="2.54" layer="91">Sensor Breakout</text>
 <text x="167.64" y="246.38" size="1.778" layer="91">UART Debugging</text>
 <text x="198.12" y="231.14" size="1.778" layer="91">SWD Programming</text>
-<text x="231.14" y="27.94" size="1.778" layer="97">place near STM32 VDD</text>
+<text x="210.82" y="25.4" size="1.778" layer="97">place near STM32 VDD</text>
 <text x="15.24" y="40.64" size="1.016" layer="95">check batterie voltage</text>
 <text x="-60.96" y="203.2" size="1.778" layer="97">ACHTUNG:
 Netz "PA2" beim routen checken, sollte
@@ -7725,16 +7726,16 @@ nur vom STM zum breakout gehen. Als
 ich das benannt hab kam ne Meldung
 dass es das schon gibt, habs aber nicht
 gefunden.</text>
-<text x="314.96" y="88.9" size="2.54" layer="91">Default Sensor MCP9808
+<text x="314.96" y="91.44" size="2.54" layer="91">Default Sensor MCP9808
 Microchip Temp. Sensor</text>
-<text x="299.72" y="45.72" size="1.778" layer="91" rot="R90">I2C address 
+<text x="302.26" y="50.8" size="1.778" layer="91" rot="R90">I2C address 
 0011000</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="27.94" y="220.98"/>
 <instance part="X1" gate="S" x="27.94" y="210.82"/>
 <instance part="SUPPLY2" gate="GND" x="17.78" y="210.82"/>
-<instance part="P+3" gate="1" x="60.96" y="238.76"/>
+<instance part="P+3" gate="1" x="63.5" y="238.76"/>
 <instance part="+3V3" gate="G$1" x="99.06" y="238.76"/>
 <instance part="SUPPLY4" gate="GND" x="81.28" y="208.28"/>
 <instance part="+3V7" gate="G$1" x="172.72" y="241.3"/>
@@ -7745,7 +7746,9 @@ Microchip Temp. Sensor</text>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="287.02" y="0"/>
 <instance part="G1" gate="G$1" x="-25.4" y="236.22"/>
-<instance part="U$1" gate="G$1" x="81.28" y="228.6"/>
+<instance part="U$1" gate="G$1" x="81.28" y="228.6">
+<attribute name="WEBSITE" x="81.28" y="228.6" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$3" gate="G$1" x="228.6" y="170.18"/>
 <instance part="SUPPLY1" gate="GND" x="200.66" y="177.8" rot="R270"/>
 <instance part="SUPPLY6" gate="GND" x="200.66" y="167.64" rot="R270"/>
@@ -7770,8 +7773,8 @@ Microchip Temp. Sensor</text>
 <instance part="SUPPLY13" gate="GND" x="172.72" y="220.98" rot="R270"/>
 <instance part="SUPPLY17" gate="GND" x="73.66" y="121.92" rot="R180"/>
 <instance part="+3V1" gate="G$1" x="299.72" y="210.82" rot="R90"/>
-<instance part="+3V2" gate="G$1" x="223.52" y="30.48"/>
-<instance part="SUPPLY3" gate="GND" x="223.52" y="12.7"/>
+<instance part="+3V2" gate="G$1" x="203.2" y="27.94"/>
+<instance part="SUPPLY3" gate="GND" x="203.2" y="10.16"/>
 <instance part="SUPPLY18" gate="GND" x="172.72" y="170.18"/>
 <instance part="U$7" gate="G$1" x="96.52" y="223.52"/>
 <instance part="SUPPLY19" gate="GND" x="172.72" y="121.92"/>
@@ -7779,12 +7782,12 @@ Microchip Temp. Sensor</text>
 <instance part="U$5" gate="G$1" x="332.74" y="129.54"/>
 <instance part="SUPPLY21" gate="GND" x="281.94" y="147.32" rot="R270"/>
 <instance part="+3V4" gate="G$1" x="302.26" y="154.94"/>
-<instance part="U$9" gate="A" x="332.74" y="63.5"/>
-<instance part="+3V9" gate="G$1" x="312.42" y="83.82"/>
-<instance part="SUPPLY22" gate="GND" x="312.42" y="40.64"/>
-<instance part="SUPPLY23" gate="GND" x="302.26" y="50.8"/>
-<instance part="+3V10" gate="G$1" x="289.56" y="86.36"/>
-<instance part="+3V11" gate="G$1" x="281.94" y="86.36"/>
+<instance part="U$9" gate="A" x="335.28" y="68.58"/>
+<instance part="+3V9" gate="G$1" x="314.96" y="88.9"/>
+<instance part="SUPPLY22" gate="GND" x="314.96" y="45.72"/>
+<instance part="SUPPLY23" gate="GND" x="304.8" y="55.88"/>
+<instance part="+3V10" gate="G$1" x="292.1" y="91.44"/>
+<instance part="+3V11" gate="G$1" x="284.48" y="91.44"/>
 <instance part="C1" gate="G$1" x="66.04" y="223.52"/>
 <instance part="R5" gate="G$1" x="165.1" y="231.14" rot="R90"/>
 <instance part="R4" gate="G$1" x="172.72" y="231.14" rot="R90"/>
@@ -7792,15 +7795,13 @@ Microchip Temp. Sensor</text>
 <instance part="R3" gate="G$1" x="180.34" y="187.96" rot="R180"/>
 <instance part="R2" gate="G$1" x="180.34" y="139.7" rot="R180"/>
 <instance part="R6" gate="G$1" x="172.72" y="132.08" rot="R90"/>
-<instance part="R9" gate="G$1" x="289.56" y="76.2" rot="R90"/>
-<instance part="R10" gate="G$1" x="281.94" y="76.2" rot="R90"/>
-<instance part="C3" gate="G$1" x="231.14" y="22.86"/>
-<instance part="C5" gate="G$1" x="241.3" y="22.86"/>
-<instance part="C7" gate="G$1" x="251.46" y="22.86"/>
-<instance part="C8" gate="G$1" x="261.62" y="22.86"/>
+<instance part="R9" gate="G$1" x="292.1" y="81.28" rot="R90"/>
+<instance part="R10" gate="G$1" x="284.48" y="81.28" rot="R90"/>
+<instance part="C3" gate="G$1" x="210.82" y="20.32"/>
+<instance part="C5" gate="G$1" x="220.98" y="20.32"/>
+<instance part="C7" gate="G$1" x="231.14" y="20.32"/>
+<instance part="C8" gate="G$1" x="241.3" y="20.32"/>
 <instance part="R12" gate="G$1" x="73.66" y="111.76" rot="R90"/>
-<instance part="R13" gate="G$1" x="-7.62" y="50.8" rot="R90"/>
-<instance part="C2" gate="G$1" x="-20.32" y="53.34"/>
 <instance part="C4" gate="G$1" x="17.78" y="71.12" rot="R90"/>
 <instance part="C6" gate="G$1" x="17.78" y="66.04" rot="R90"/>
 <instance part="R11" gate="G$1" x="35.56" y="66.04" rot="R180"/>
@@ -7808,6 +7809,7 @@ Microchip Temp. Sensor</text>
 <instance part="C9" gate="G$1" x="25.4" y="55.88"/>
 <instance part="R7" gate="G$1" x="35.56" y="40.64" rot="R180"/>
 <instance part="R8" gate="G$1" x="22.86" y="45.72" rot="R180"/>
+<instance part="P+1" gate="1" x="17.78" y="231.14"/>
 </instances>
 <busses>
 </busses>
@@ -7894,18 +7896,18 @@ Microchip Temp. Sensor</text>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
-<wire x1="223.52" y1="15.24" x2="223.52" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="17.78" x2="231.14" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="17.78" x2="241.3" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="12.7" x2="203.2" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="15.24" x2="210.82" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="15.24" x2="220.98" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<junction x="231.14" y="17.78"/>
+<junction x="210.82" y="15.24"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="17.78" x2="251.46" y2="17.78" width="0.1524" layer="91"/>
-<junction x="241.3" y="17.78"/>
+<wire x1="220.98" y1="15.24" x2="231.14" y2="15.24" width="0.1524" layer="91"/>
+<junction x="220.98" y="15.24"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="251.46" y1="17.78" x2="261.62" y2="17.78" width="0.1524" layer="91"/>
-<junction x="251.46" y="17.78"/>
+<wire x1="231.14" y1="15.24" x2="241.3" y2="15.24" width="0.1524" layer="91"/>
+<junction x="231.14" y="15.24"/>
 </segment>
 <segment>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
@@ -7945,24 +7947,24 @@ Microchip Temp. Sensor</text>
 </segment>
 <segment>
 <pinref part="U$9" gate="A" pin="GND"/>
-<wire x1="314.96" y1="48.26" x2="312.42" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="53.34" x2="314.96" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
-<wire x1="312.42" y1="43.18" x2="312.42" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="48.26" x2="314.96" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="A" pin="A1"/>
-<wire x1="314.96" y1="55.88" x2="309.88" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="60.96" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="A" pin="A2"/>
-<wire x1="314.96" y1="53.34" x2="309.88" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="53.34" x2="309.88" y2="55.88" width="0.1524" layer="91"/>
-<junction x="309.88" y="55.88"/>
+<wire x1="317.5" y1="58.42" x2="312.42" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="58.42" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
+<junction x="312.42" y="60.96"/>
 <pinref part="U$9" gate="A" pin="A0"/>
-<wire x1="314.96" y1="58.42" x2="309.88" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="58.42" x2="309.88" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="63.5" x2="312.42" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="63.5" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY23" gate="GND" pin="GND"/>
-<wire x1="309.88" y1="55.88" x2="302.26" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="55.88" x2="302.26" y2="53.34" width="0.1524" layer="91"/>
-<label x="302.26" y="55.88" size="1.778" layer="95"/>
+<wire x1="312.42" y1="60.96" x2="304.8" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="60.96" x2="304.8" y2="58.42" width="0.1524" layer="91"/>
+<label x="304.8" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -8010,19 +8012,19 @@ Microchip Temp. Sensor</text>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<wire x1="251.46" y1="25.4" x2="241.3" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="22.86" x2="220.98" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="241.3" y1="25.4" x2="231.14" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="25.4" x2="223.52" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="25.4" x2="223.52" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="22.86" x2="210.82" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="22.86" x2="203.2" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="22.86" x2="203.2" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<junction x="231.14" y="25.4"/>
+<junction x="210.82" y="22.86"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<junction x="241.3" y="25.4"/>
+<junction x="220.98" y="22.86"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="25.4" x2="261.62" y2="25.4" width="0.1524" layer="91"/>
-<junction x="251.46" y="25.4"/>
+<wire x1="231.14" y1="22.86" x2="241.3" y2="22.86" width="0.1524" layer="91"/>
+<junction x="231.14" y="22.86"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="VDD3"/>
@@ -8047,18 +8049,18 @@ Microchip Temp. Sensor</text>
 </segment>
 <segment>
 <pinref part="U$9" gate="A" pin="VDD"/>
-<wire x1="314.96" y1="73.66" x2="312.42" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="78.74" x2="314.96" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
-<wire x1="312.42" y1="73.66" x2="312.42" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="78.74" x2="314.96" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V11" gate="G$1" pin="+3V3"/>
-<wire x1="281.94" y1="81.28" x2="281.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="86.36" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
-<wire x1="289.56" y1="81.28" x2="289.56" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="86.36" x2="292.1" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -8086,13 +8088,19 @@ Microchip Temp. Sensor</text>
 <net name="+5V" class="0">
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="60.96" y1="236.22" x2="60.96" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="228.6" x2="66.04" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="236.22" x2="63.5" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="228.6" x2="66.04" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="226.06" x2="66.04" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="IN"/>
 <wire x1="66.04" y1="228.6" x2="73.66" y2="228.6" width="0.1524" layer="91"/>
 <junction x="66.04" y="228.6"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="22.86" y1="226.06" x2="17.78" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="1"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+<wire x1="17.78" y1="228.6" x2="17.78" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX_ICP" class="0">
@@ -8138,12 +8146,6 @@ Microchip Temp. Sensor</text>
 <pinref part="U$6" gate="G$1" pin="PA13"/>
 <wire x1="119.38" y1="81.28" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
 <label x="124.46" y="81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<wire x1="22.86" y1="226.06" x2="17.78" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SW_WLAN" class="0">
@@ -8425,11 +8427,11 @@ Microchip Temp. Sensor</text>
 </segment>
 <segment>
 <pinref part="U$9" gate="A" pin="SCL"/>
-<wire x1="314.96" y1="68.58" x2="289.56" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="68.58" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="71.12" x2="289.56" y2="68.58" width="0.1524" layer="91"/>
-<junction x="289.56" y="68.58"/>
-<label x="292.1" y="68.58" size="1.778" layer="95"/>
+<wire x1="317.5" y1="73.66" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="73.66" x2="289.56" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="76.2" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
+<junction x="292.1" y="73.66"/>
+<label x="294.64" y="73.66" size="1.778" layer="95"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -8446,11 +8448,11 @@ Microchip Temp. Sensor</text>
 </segment>
 <segment>
 <pinref part="U$9" gate="A" pin="SDA"/>
-<wire x1="314.96" y1="63.5" x2="281.94" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="63.5" x2="281.94" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="63.5" x2="274.32" y2="63.5" width="0.1524" layer="91"/>
-<junction x="281.94" y="63.5"/>
-<label x="292.1" y="63.5" size="1.778" layer="95"/>
+<wire x1="317.5" y1="68.58" x2="284.48" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="68.58" x2="284.48" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="68.58" x2="276.86" y2="68.58" width="0.1524" layer="91"/>
+<junction x="284.48" y="68.58"/>
+<label x="294.64" y="68.58" size="1.778" layer="95"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -8680,8 +8682,8 @@ Microchip Temp. Sensor</text>
 <net name="ALERT" class="0">
 <segment>
 <pinref part="U$9" gate="A" pin="ALERT"/>
-<wire x1="350.52" y1="73.66" x2="355.6" y2="73.66" width="0.1524" layer="91"/>
-<label x="353.06" y="73.66" size="1.778" layer="95"/>
+<wire x1="353.06" y1="78.74" x2="358.14" y2="78.74" width="0.1524" layer="91"/>
+<label x="355.6" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
