@@ -11,9 +11,8 @@ Then the user can click a *save* button to generate a new *.hex* file with the f
 and the variables.  
 This file can now be flashed.
 
-## SPEC
-Here is an example for the JSON files which describe the variables one can edit:  
-[http://www.jsoneditoronline.org/?id=5f7bb21513ac1fcfc43e39b30b590ad5](http://www.jsoneditoronline.org/?id=5f7bb21513ac1fcfc43e39b30b590ad5)
+## UI design
+![UI design](https://raw.githubusercontent.com/NicoZellinger/SensorMonitoring/master/FlashSoftware/ui-design_v1.png)
 
 ### Description
 Every variable has a id (the variable name in the firmware), an real name, a type to do typechecking when user edits
@@ -23,3 +22,7 @@ Would be nice in the future to generate the JSON file out of the sourcecode dire
 This could be achieved by marking a section with the variables with code comments.  
 The offset can be calculated with the pointer address. The name can be specified by comment and the
 type can be obtained out of the code.
+
+## SPEC
+Here is an example for the JSON files which describe the variables one can edit:  
+[http://www.jsoneditoronline.org/?id=5f7bb21513ac1fcfc43e39b30b590ad5](http://www.jsoneditoronline.org/?id=5f7bb21513ac1fcfc43e39b30b590ad5)
