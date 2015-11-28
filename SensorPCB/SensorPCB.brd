@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -2122,12 +2122,12 @@ design rules under a new name.</description>
 <element name="U$5" library="breakout_base" package="BREAKOUT_FOOTPRINT_V1" value="BREAKOUT_FP_V1" x="33.02" y="64.77" rot="MR270"/>
 <element name="STM32L051C8T6" library="STM32L051x6_LQFP48XXL" package="LQFP48" value="STM32L051X6/8" x="17.78" y="18.415" rot="MR315"/>
 <element name="T1" library="CAP_TANTAL_1206" package="1206" value="33u" x="19.05" y="3.175" rot="R180"/>
-<element name="MCP9808" library="mcp9808" package="SOP65P490X110-8N" value="MCP9808-E/MS" x="17.145" y="49.53" rot="MR0">
-<attribute name="PACKAGE" value="MSOP-8" x="17.145" y="49.53" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_NEWARK" value="89T8871" x="17.145" y="49.53" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="MCP9808-E/MS" x="17.145" y="49.53" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SUPPLIER" value="MICROCHIP" x="17.145" y="49.53" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_FARNELL" value="2080523" x="17.145" y="49.53" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="MCP9808" library="mcp9808" package="SOP65P490X110-8N" value="MCP9808-E/MS" x="18.415" y="55.245" rot="MR0">
+<attribute name="PACKAGE" value="MSOP-8" x="18.415" y="55.245" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_NEWARK" value="89T8871" x="18.415" y="55.245" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="MCP9808-E/MS" x="18.415" y="55.245" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="MICROCHIP" x="18.415" y="55.245" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_FARNELL" value="2080523" x="18.415" y="55.245" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="MINI_USB" library="con-cypressindustries" package="32005-201" value="MINI-USB-SCHIELD-32005-201" x="8.89" y="5.08" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="8.89" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2172,11 +2172,11 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="-"/>
 <contactref element="LM3940" pad="4"/>
 <contactref element="LM3940" pad="2"/>
-<wire x1="19.177" y1="48.5648" x2="24.13" y2="62.865" width="0" layer="19" extent="16-16"/>
-<wire x1="15.113" y1="48.5648" x2="19.177" y2="48.5648" width="0" layer="19" extent="16-16"/>
-<wire x1="15.113" y1="49.1998" x2="15.113" y2="48.5648" width="0" layer="19" extent="16-16"/>
-<wire x1="15.113" y1="49.8602" x2="15.113" y2="49.1998" width="0" layer="19" extent="16-16"/>
-<wire x1="27.88" y1="39.37" x2="19.177" y2="48.5648" width="0" layer="19" extent="1-16"/>
+<wire x1="20.447" y1="54.2798" x2="24.13" y2="62.865" width="0" layer="19" extent="16-16"/>
+<wire x1="16.383" y1="54.2798" x2="20.447" y2="54.2798" width="0" layer="19" extent="16-16"/>
+<wire x1="16.383" y1="54.9148" x2="16.383" y2="54.2798" width="0" layer="19" extent="16-16"/>
+<wire x1="16.383" y1="55.5752" x2="16.383" y2="54.9148" width="0" layer="19" extent="16-16"/>
+<wire x1="27.88" y1="39.37" x2="20.447" y2="54.2798" width="0" layer="19" extent="1-16"/>
 <wire x1="27.88" y1="36.83" x2="27.88" y2="39.37" width="0" layer="19" extent="1-1"/>
 <wire x1="26.355" y1="33.02" x2="27.88" y2="36.83" width="0" layer="19" extent="1-16"/>
 <wire x1="31.435" y1="29.845" x2="26.355" y2="33.02" width="0" layer="19" extent="1-16"/>
@@ -2244,8 +2244,8 @@ design rules under a new name.</description>
 <wire x1="24.13" y1="38.735" x2="27.94" y2="42.545" width="0.254" layer="1"/>
 <wire x1="27.94" y1="42.545" x2="27.94" y2="47.53" width="0.254" layer="1"/>
 <wire x1="27.94" y1="47.53" x2="27.845" y2="47.625" width="0.254" layer="1"/>
-<wire x1="15.113" y1="50.4952" x2="20.32" y2="62.865" width="0" layer="19" extent="16-16"/>
-<wire x1="27.845" y1="47.625" x2="15.113" y2="50.4952" width="0" layer="19" extent="1-16"/>
+<wire x1="16.383" y1="56.2102" x2="20.32" y2="62.865" width="0" layer="19" extent="16-16"/>
+<wire x1="27.845" y1="47.625" x2="16.383" y2="56.2102" width="0" layer="19" extent="1-16"/>
 <wire x1="25.085" y1="2.54" x2="24.765" y2="3.175" width="0" layer="19" extent="1-16"/>
 <wire x1="21.905" y1="2.54" x2="20.45" y2="3.175" width="0" layer="19" extent="1-16"/>
 <wire x1="25.085" y1="5.715" x2="25.4" y2="3.81" width="0" layer="19" extent="1-16"/>
@@ -2421,8 +2421,8 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="P$14"/>
 <contactref element="R9" pad="1"/>
 <contactref element="MCP9808" pad="2"/>
-<wire x1="19.177" y1="49.8602" x2="12.7" y2="62.865" width="0" layer="19" extent="16-16"/>
-<wire x1="14.49195625" y1="21.349490625" x2="19.177" y2="49.8602" width="0" layer="19" extent="16-16"/>
+<wire x1="20.447" y1="55.5752" x2="12.7" y2="62.865" width="0" layer="19" extent="16-16"/>
+<wire x1="14.49195625" y1="21.349490625" x2="20.447" y2="55.5752" width="0" layer="19" extent="16-16"/>
 <wire x1="4.125" y1="20.955" x2="14.49195625" y2="21.349490625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="I2C1_SDA_SENSOR">
@@ -2430,8 +2430,8 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="P$15"/>
 <contactref element="R10" pad="1"/>
 <contactref element="MCP9808" pad="1"/>
-<wire x1="19.177" y1="50.4952" x2="16.51" y2="62.865" width="0" layer="19" extent="16-16"/>
-<wire x1="14.845509375" y1="21.70304375" x2="19.177" y2="50.4952" width="0" layer="19" extent="16-16"/>
+<wire x1="20.447" y1="56.2102" x2="16.51" y2="62.865" width="0" layer="19" extent="16-16"/>
+<wire x1="14.845509375" y1="21.70304375" x2="20.447" y2="56.2102" width="0" layer="19" extent="16-16"/>
 <wire x1="4.125" y1="23.495" x2="14.845509375" y2="21.70304375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GND_WLAN">

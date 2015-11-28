@@ -7776,7 +7776,9 @@ STM32L051x8</text>
 Microchip Temp. Sensor</text>
 <text x="302.26" y="50.8" size="1.778" layer="91" rot="R90">I2C address 
 0011000</text>
-<text x="91.44" y="190.5" size="1.778" layer="91">Pull-up I2c</text>
+<text x="91.44" y="190.5" size="1.778" layer="91">Pull-up I2C</text>
+<text x="238.76" y="251.46" size="5.08" layer="94" rot="R180">dont need the pullup right?</text>
+<text x="198.12" y="83.82" size="2.54" layer="91">Second Default Sensor?</text>
 </plain>
 <instances>
 <instance part="MINI_USB" gate="G$1" x="27.94" y="220.98"/>
