@@ -122,6 +122,7 @@
 <smd name="3" x="2.5" y="-8.02" dx="4" dy="1.5" layer="1" rot="R270"/>
 <text x="-6" y="-5.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="7.25" y="-5.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<smd name="4" x="0" y="2.54" dx="10.16" dy="6.35" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -148,7 +149,7 @@
 <devices>
 <device name="" package="LM3940_PACK">
 <connects>
-<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
 </connects>

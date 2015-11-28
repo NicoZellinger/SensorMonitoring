@@ -60,6 +60,12 @@
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -71,9 +77,80 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="fp3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -6684,94 +6761,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="battery">
-<description>&lt;b&gt;Lithium Batteries and NC Accus&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="B2430UNI">
-<description>&lt;b&gt;LI BATTERY&lt;/b&gt; with different Grids</description>
-<wire x1="-0.635" y1="9.144" x2="0.635" y2="9.144" width="0.254" layer="21"/>
-<wire x1="0" y1="9.779" x2="0" y2="8.509" width="0.254" layer="21"/>
-<wire x1="1.524" y1="-6.985" x2="2.794" y2="-6.985" width="0.254" layer="21"/>
-<wire x1="-2.286" y1="14.859" x2="-5.334" y2="14.859" width="0.1524" layer="51"/>
-<wire x1="-6.604" y1="14.859" x2="-6.604" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="6.604" y1="-1.905" x2="6.604" y2="14.859" width="0.1524" layer="21"/>
-<wire x1="-6.604" y1="-1.905" x2="6.604" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="14.859" x2="-2.286" y2="14.859" width="0.1524" layer="21"/>
-<wire x1="5.207" y1="14.859" x2="2.286" y2="14.859" width="0.1524" layer="51"/>
-<wire x1="-11.557" y1="0" x2="11.557" y2="0" width="0.1524" layer="21" curve="180"/>
-<wire x1="6.5644" y1="9.5117" x2="11.5571" y2="0" width="0.1524" layer="21" curve="-55.388597"/>
-<wire x1="-11.557" y1="0" x2="-6.6543" y2="9.4491" width="0.1524" layer="21" curve="-54.845911"/>
-<wire x1="-6.604" y1="14.859" x2="-5.334" y2="14.859" width="0.1524" layer="21"/>
-<wire x1="6.604" y1="14.859" x2="5.207" y2="14.859" width="0.1524" layer="21"/>
-<wire x1="-2.159" y1="12.319" x2="-3.556" y2="12.319" width="0.1524" layer="21"/>
-<wire x1="6.604" y1="12.319" x2="3.556" y2="12.319" width="0.1524" layer="51"/>
-<wire x1="-3.556" y1="12.319" x2="-6.604" y2="12.319" width="0.1524" layer="51"/>
-<wire x1="-11.938" y1="0" x2="11.938" y2="0" width="0.1524" layer="21" curve="180"/>
-<wire x1="-11.938" y1="0" x2="-6.622" y2="9.933" width="0.1524" layer="21" curve="-56.309882"/>
-<wire x1="6.5882" y1="9.9555" x2="11.938" y2="0" width="0.1524" layer="21" curve="-56.504865"/>
-<wire x1="3.556" y1="12.319" x2="2.159" y2="12.319" width="0.1524" layer="21"/>
-<wire x1="2.159" y1="12.319" x2="-2.159" y2="12.319" width="0.1524" layer="51"/>
-<pad name="+@1" x="-3.81" y="14.605" drill="1.1176" diameter="2.54" shape="octagon"/>
-<pad name="+" x="3.81" y="14.605" drill="1.1176" diameter="2.54" shape="octagon"/>
-<pad name="-" x="0" y="-5.715" drill="1.1176" diameter="2.54" shape="octagon"/>
-<pad name="+@3" x="5.08" y="12.065" drill="1.1176" diameter="2.54" shape="octagon"/>
-<pad name="+@2" x="-5.08" y="12.065" drill="1.1176" diameter="2.54" shape="octagon"/>
-<pad name="-@1" x="0" y="-8.255" drill="1.1176" diameter="2.54" shape="octagon"/>
-<pad name="+@4" x="0" y="12.065" drill="1.8034" diameter="3.81" shape="octagon"/>
-<text x="-5.08" y="16.256" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="8.89" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<text x="-2.921" y="5.08" size="1.27" layer="21" ratio="10">Lit.3V</text>
-<text x="-5.08" y="0.635" size="1.27" layer="21" ratio="10">10,2x17,8</text>
-<text x="-5.08" y="-3.81" size="1.27" layer="21" ratio="10">10,2x20,3</text>
-<text x="-4.064" y="-1.27" size="1.27" layer="21" ratio="10">7,5x20,3</text>
-<text x="-1.778" y="2.54" size="1.27" layer="21" ratio="10">0x20,3</text>
-</package>
-</packages>
-<symbols>
-<symbol name="1V2-2+5">
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="0.635" y1="2.54" x2="0.635" y2="0" width="0.4064" layer="94"/>
-<wire x1="0.635" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
-<text x="-0.635" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+" x="12.7" y="0" visible="pad" direction="pas" rot="R180"/>
-<pin name="-" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="+@1" x="10.16" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<pin name="+@2" x="7.62" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<pin name="+@3" x="5.08" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<pin name="+@4" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<pin name="-@1" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="B2430UNI" prefix="G">
-<description>&lt;b&gt;LI BATTERY&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="1V2-2+5" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="B2430UNI">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="+@1" pad="+@1"/>
-<connect gate="G$1" pin="+@2" pad="+@2"/>
-<connect gate="G$1" pin="+@3" pad="+@3"/>
-<connect gate="G$1" pin="+@4" pad="+@4"/>
-<connect gate="G$1" pin="-" pad="-"/>
-<connect gate="G$1" pin="-@1" pad="-@1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="lm3940">
 <packages>
 <package name="LM3940_PACK">
@@ -6834,6 +6823,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <smd name="3" x="2.5" y="-8.02" dx="4" dy="1.5" layer="1" rot="R270"/>
 <text x="-6" y="-5.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="7.25" y="-5.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<smd name="4" x="0" y="2.54" dx="10.16" dy="6.35" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -6860,7 +6850,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <devices>
 <device name="" package="LM3940_PACK">
 <connects>
-<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
 </connects>
@@ -7615,6 +7605,75 @@ STM32L051x8</text>
 </deviceset>
 </devicesets>
 </library>
+<library name="KZH_20SMD">
+<packages>
+<package name="KHZ_20SMD">
+<wire x1="-15.24" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-4.572" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-4.572" x2="-4.826" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-4.826" y1="-10.16" x2="5.08" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-10.16" x2="10.16" y2="-4.826" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-4.826" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-2.54" x2="15.24" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.127" layer="21"/>
+<wire x1="15.24" y1="2.54" x2="10.16" y2="2.54" width="0.127" layer="21"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="9.652" width="0.127" layer="21"/>
+<wire x1="10.16" y1="9.652" x2="5.842" y2="9.652" width="0.127" layer="21"/>
+<wire x1="5.842" y1="9.652" x2="3.302" y2="6.604" width="0.127" layer="21"/>
+<wire x1="3.302" y1="6.604" x2="-3.048" y2="6.604" width="0.127" layer="21"/>
+<wire x1="-3.048" y1="6.604" x2="-5.334" y2="9.652" width="0.127" layer="21"/>
+<wire x1="-5.334" y1="9.652" x2="-10.16" y2="9.652" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="9.652" x2="-10.16" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="2.54" x2="-15.24" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="2.54" x2="-15.24" y2="-2.54" width="0.127" layer="21"/>
+<smd name="-" x="0" y="0" dx="9.144" dy="9.144" layer="1"/>
+<smd name="+$1" x="-12.7" y="0" dx="5.08" dy="5.08" layer="1"/>
+<smd name="+$2" x="12.7" y="0" dx="5.08" dy="5.08" layer="1"/>
+<text x="-3.556" y="10.302" size="1.6764" layer="25" font="vector">&gt;NAME</text>
+<text x="-4.318" y="-12.35" size="1.6764" layer="27" font="vector">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="-9" y="0" curve="-90"/>
+<vertex x="0" y="9" curve="-90"/>
+<vertex x="9" y="0" curve="-90"/>
+<vertex x="0" y="-9" curve="-90"/>
+</polygon>
+<rectangle x1="-0.1881" y1="-9.405975" x2="0.1881" y2="-7.1958" layer="21"/>
+<rectangle x1="-0.2116125" y1="-9.3824625" x2="0.1645875" y2="-7.1722875" layer="21" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="KZH_20SMD">
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="0.635" y1="2.54" x2="0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-1.27" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="-" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="KZH_20SMD">
+<gates>
+<gate name="G$1" symbol="KZH_20SMD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KHZ_20SMD">
+<connects>
+<connect gate="G$1" pin="+" pad="+$1 +$2"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7636,7 +7695,6 @@ STM32L051x8</text>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="PHD" library="pinhead" deviceset="PINHD-1X7" device="_2.54-SMD"/>
 <part name="FRAME2" library="frames" deviceset="DINA3_L" device=""/>
-<part name="G1" library="battery" deviceset="B2430UNI" device=""/>
 <part name="LM3940" library="lm3940" deviceset="LM3940" device="">
 <attribute name="WEBSITE" value="http://www.reichelt.de/LM-3940-IS3-3/3/index.html?&amp;ACTION=3&amp;LA=446&amp;ARTICLE=109408&amp;artnr=LM+3940+IS3%2C3&amp;SEARCH=SPANNUNGsregler+3%2C3v"/>
 </part>
@@ -7667,7 +7725,7 @@ STM32L051x8</text>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
-<part name="U$7" library="CAP_TANTAL_1206" deviceset="CAP_TANTAL_1206" device="" value="33u"/>
+<part name="T1" library="CAP_TANTAL_1206" deviceset="CAP_TANTAL_1206" device="" value="33u"/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="U$5" library="breakout_base" deviceset="BREAKOUT_FP_V1" device=""/>
@@ -7701,18 +7759,16 @@ STM32L051x8</text>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
+<part name="U$1" library="KZH_20SMD" deviceset="KZH_20SMD" device=""/>
+<part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="40.64" y="243.84" size="2.54" layer="91">Voltage supply USB</text>
-<text x="-30.48" y="246.38" size="1.778" layer="94">TODO
--Battery
--Layout_bohrungen
--Optional LED
--change R and C to 0805</text>
 <text x="342.9" y="246.38" size="2.54" layer="91" rot="R180">WLAN-module</text>
-<text x="35.56" y="190.5" size="2.54" layer="91">Voltage supply Battery</text>
+<text x="35.56" y="190.5" size="2.54" layer="91">Voltage supply Button Cell</text>
 <text x="35.56" y="132.08" size="2.54" layer="91">Microcontroller</text>
 <text x="215.9" y="190.5" size="2.54" layer="91">FET</text>
 <text x="320.04" y="160.02" size="2.54" layer="91">Sensor Breakout</text>
@@ -7720,16 +7776,12 @@ STM32L051x8</text>
 <text x="198.12" y="231.14" size="1.778" layer="91">SWD Programming</text>
 <text x="210.82" y="25.4" size="1.778" layer="97">place near STM32 VDD</text>
 <text x="15.24" y="40.64" size="1.016" layer="95">check batterie voltage</text>
-<text x="-60.96" y="203.2" size="1.778" layer="97">ACHTUNG:
-Netz "PA2" beim routen checken, sollte
-nur vom STM zum breakout gehen. Als 
-ich das benannt hab kam ne Meldung
-dass es das schon gibt, habs aber nicht
-gefunden.</text>
 <text x="314.96" y="91.44" size="2.54" layer="91">Default Sensor MCP9808
 Microchip Temp. Sensor</text>
 <text x="302.26" y="50.8" size="1.778" layer="91" rot="R90">I2C address 
 0011000</text>
+<text x="0" y="266.7" size="1.778" layer="94">ADD RESISTORS FOR SPI AND I2C
+Where is Big GND from voltage regulator?</text>
 </plain>
 <instances>
 <instance part="MINI_USB" gate="G$1" x="27.94" y="220.98"/>
@@ -7745,7 +7797,6 @@ Microchip Temp. Sensor</text>
 <instance part="PHD" gate="A" x="193.04" y="218.44"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="287.02" y="0"/>
-<instance part="G1" gate="G$1" x="-25.4" y="236.22"/>
 <instance part="LM3940" gate="G$1" x="81.28" y="228.6">
 <attribute name="WEBSITE" x="81.28" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
@@ -7776,7 +7827,7 @@ Microchip Temp. Sensor</text>
 <instance part="+3V2" gate="G$1" x="203.2" y="27.94"/>
 <instance part="SUPPLY3" gate="GND" x="203.2" y="10.16"/>
 <instance part="SUPPLY18" gate="GND" x="172.72" y="170.18"/>
-<instance part="U$7" gate="G$1" x="96.52" y="223.52"/>
+<instance part="T1" gate="G$1" x="96.52" y="223.52"/>
 <instance part="SUPPLY19" gate="GND" x="172.72" y="121.92"/>
 <instance part="SUPPLY20" gate="GND" x="12.7" y="45.72" rot="R270"/>
 <instance part="U$5" gate="G$1" x="332.74" y="129.54"/>
@@ -7810,6 +7861,9 @@ Microchip Temp. Sensor</text>
 <instance part="R7" gate="G$1" x="35.56" y="40.64" rot="R180"/>
 <instance part="R8" gate="G$1" x="22.86" y="45.72" rot="R180"/>
 <instance part="P+1" gate="1" x="17.78" y="231.14"/>
+<instance part="U$1" gate="G$1" x="53.34" y="177.8"/>
+<instance part="+3V15" gate="G$1" x="66.04" y="185.42"/>
+<instance part="SUPPLY24" gate="GND" x="40.64" y="172.72"/>
 </instances>
 <busses>
 </busses>
@@ -7829,9 +7883,10 @@ Microchip Temp. Sensor</text>
 <wire x1="81.28" y1="213.36" x2="96.52" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="213.36" x2="96.52" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="218.44" x2="66.04" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="213.36" x2="81.28" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="-"/>
+<pinref part="T1" gate="G$1" pin="-"/>
 <pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="LM3940" gate="G$1" pin="GND"/>
+<wire x1="81.28" y1="220.98" x2="81.28" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PHD" gate="A" pin="4"/>
@@ -7966,6 +8021,12 @@ Microchip Temp. Sensor</text>
 <wire x1="304.8" y1="60.96" x2="304.8" y2="58.42" width="0.1524" layer="91"/>
 <label x="304.8" y="60.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="-"/>
+<wire x1="48.26" y1="177.8" x2="40.64" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="SUPPLY24" gate="GND" pin="GND"/>
+<wire x1="40.64" y1="177.8" x2="40.64" y2="175.26" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -7976,7 +8037,7 @@ Microchip Temp. Sensor</text>
 <pinref part="LM3940" gate="G$1" pin="OUT"/>
 <wire x1="88.9" y1="228.6" x2="96.52" y2="228.6" width="0.1524" layer="91"/>
 <junction x="96.52" y="228.6"/>
-<pinref part="U$7" gate="G$1" pin="+"/>
+<pinref part="T1" gate="G$1" pin="+"/>
 </segment>
 <segment>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
@@ -8062,6 +8123,12 @@ Microchip Temp. Sensor</text>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
 <wire x1="292.1" y1="86.36" x2="292.1" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="+"/>
+<wire x1="58.42" y1="177.8" x2="66.04" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="+3V15" gate="G$1" pin="+3V3"/>
+<wire x1="66.04" y1="182.88" x2="66.04" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -8689,9 +8756,6 @@ Microchip Temp. Sensor</text>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="106,1,218.44,60.96,RX_WLAN,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
