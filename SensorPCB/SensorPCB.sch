@@ -7291,10 +7291,10 @@ STM32L051x8</text>
 <part name="LM3940" library="lm3940" deviceset="LM3940" device="">
 <attribute name="WEBSITE" value="http://www.reichelt.de/LM-3940-IS3-3/3/index.html?&amp;ACTION=3&amp;LA=446&amp;ARTICLE=109408&amp;artnr=LM+3940+IS3%2C3&amp;SEARCH=SPANNUNGsregler+3%2C3v"/>
 </part>
-<part name="IRF7301_WLAN" library="irf7301_symb" deviceset="IRF7301" device=""/>
+<part name="IRF7301_W" library="irf7301_symb" deviceset="IRF7301" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="IRF7301_SENSOR" library="irf7301_symb" deviceset="IRF7301" device=""/>
+<part name="IRF7301_S" library="irf7301_symb" deviceset="IRF7301" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="ESP8266" library="ESP8266-ESP12E" deviceset="ESP8266-12E" device="ESP8266-ESP12E"/>
@@ -7381,10 +7381,10 @@ STM32L051x8</text>
 <instance part="LM3940" gate="G$1" x="81.28" y="228.6">
 <attribute name="WEBSITE" x="81.28" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="IRF7301_WLAN" gate="G$1" x="238.76" y="109.22"/>
+<instance part="IRF7301_W" gate="G$1" x="238.76" y="109.22"/>
 <instance part="SUPPLY1" gate="GND" x="210.82" y="116.84" rot="R270"/>
 <instance part="SUPPLY6" gate="GND" x="210.82" y="106.68" rot="R270"/>
-<instance part="IRF7301_SENSOR" gate="G$1" x="238.76" y="63.5"/>
+<instance part="IRF7301_S" gate="G$1" x="238.76" y="63.5"/>
 <instance part="SUPPLY7" gate="GND" x="208.28" y="71.12" rot="R270"/>
 <instance part="SUPPLY8" gate="GND" x="208.28" y="60.96" rot="R270"/>
 <instance part="ESP8266" gate="G$1" x="337.82" y="220.98"/>
@@ -7467,23 +7467,23 @@ STM32L051x8</text>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IRF7301_WLAN" gate="G$1" pin="S1"/>
+<pinref part="IRF7301_W" gate="G$1" pin="S1"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <wire x1="226.06" y1="116.84" x2="213.36" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
-<pinref part="IRF7301_WLAN" gate="G$1" pin="S2"/>
+<pinref part="IRF7301_W" gate="G$1" pin="S2"/>
 <wire x1="213.36" y1="106.68" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IRF7301_SENSOR" gate="G$1" pin="S1"/>
+<pinref part="IRF7301_S" gate="G$1" pin="S1"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 <wire x1="226.06" y1="71.12" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
-<pinref part="IRF7301_SENSOR" gate="G$1" pin="S2"/>
+<pinref part="IRF7301_S" gate="G$1" pin="S2"/>
 <wire x1="210.82" y1="60.96" x2="226.06" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -7998,12 +7998,12 @@ STM32L051x8</text>
 </net>
 <net name="GND_WLAN" class="0">
 <segment>
-<pinref part="IRF7301_WLAN" gate="G$1" pin="D1"/>
+<pinref part="IRF7301_W" gate="G$1" pin="D1"/>
 <wire x1="251.46" y1="114.3" x2="271.78" y2="114.3" width="0.1524" layer="91"/>
 <label x="259.08" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IRF7301_WLAN" gate="G$1" pin="D2"/>
+<pinref part="IRF7301_W" gate="G$1" pin="D2"/>
 <wire x1="271.78" y1="104.14" x2="251.46" y2="104.14" width="0.1524" layer="91"/>
 <label x="259.08" y="104.14" size="1.778" layer="95"/>
 </segment>
@@ -8015,12 +8015,12 @@ STM32L051x8</text>
 </net>
 <net name="GND_SENSOR" class="0">
 <segment>
-<pinref part="IRF7301_SENSOR" gate="G$1" pin="D1"/>
+<pinref part="IRF7301_S" gate="G$1" pin="D1"/>
 <wire x1="251.46" y1="68.58" x2="274.32" y2="68.58" width="0.1524" layer="91"/>
 <label x="259.08" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IRF7301_SENSOR" gate="G$1" pin="D2"/>
+<pinref part="IRF7301_S" gate="G$1" pin="D2"/>
 <wire x1="274.32" y1="58.42" x2="251.46" y2="58.42" width="0.1524" layer="91"/>
 <label x="259.08" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -8037,12 +8037,12 @@ STM32L051x8</text>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IRF7301_WLAN" gate="G$1" pin="G1"/>
+<pinref part="IRF7301_W" gate="G$1" pin="G1"/>
 <wire x1="226.06" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
 <label x="210.82" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IRF7301_WLAN" gate="G$1" pin="G2"/>
+<pinref part="IRF7301_W" gate="G$1" pin="G2"/>
 <wire x1="226.06" y1="101.6" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
 <label x="210.82" y="101.6" size="1.778" layer="95"/>
 </segment>
@@ -8070,12 +8070,12 @@ STM32L051x8</text>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IRF7301_SENSOR" gate="G$1" pin="G2"/>
+<pinref part="IRF7301_S" gate="G$1" pin="G2"/>
 <wire x1="226.06" y1="55.88" x2="205.74" y2="55.88" width="0.1524" layer="91"/>
 <label x="205.74" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IRF7301_SENSOR" gate="G$1" pin="G1"/>
+<pinref part="IRF7301_S" gate="G$1" pin="G1"/>
 <wire x1="226.06" y1="66.04" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
 <label x="205.74" y="66.04" size="1.778" layer="95"/>
 </segment>
