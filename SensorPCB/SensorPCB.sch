@@ -7353,7 +7353,7 @@ STM32L051x8</text>
 <wire x1="-10.16" y1="9.652" x2="-10.16" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="2.54" x2="-15.24" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-15.24" y1="2.54" x2="-15.24" y2="-2.54" width="0.127" layer="21"/>
-<smd name="-" x="0" y="0" dx="9.144" dy="9.144" layer="1"/>
+<smd name="-" x="0" y="0" dx="10.16" dy="10.16" layer="1" roundness="100"/>
 <smd name="+$1" x="-12.7" y="0" dx="5.08" dy="5.08" layer="1"/>
 <smd name="+$2" x="12.7" y="0" dx="5.08" dy="5.08" layer="1"/>
 <text x="-3.556" y="10.302" size="1.6764" layer="25" font="vector">&gt;NAME</text>
@@ -7366,6 +7366,12 @@ STM32L051x8</text>
 </polygon>
 <rectangle x1="-0.1881" y1="-9.405975" x2="0.1881" y2="-7.1958" layer="21"/>
 <rectangle x1="-0.2116125" y1="-9.3824625" x2="0.1645875" y2="-7.1722875" layer="21" rot="R90"/>
+<polygon width="0.127" layer="41">
+<vertex x="-9" y="0" curve="-90"/>
+<vertex x="0" y="9" curve="-90"/>
+<vertex x="9" y="0" curve="-90"/>
+<vertex x="0" y="-9" curve="-90"/>
+</polygon>
 </package>
 </packages>
 <symbols>
