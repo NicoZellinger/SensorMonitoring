@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.00625" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -144,12 +144,16 @@
 <wire x1="34.46" y1="0" x2="37" y2="2.54" width="0" layer="20" curve="90"/>
 <wire x1="37" y1="2.54" x2="37" y2="62.46" width="0" layer="20"/>
 <wire x1="37" y1="62.46" x2="34.46" y2="65" width="0" layer="20" curve="90"/>
-<wire x1="34.46" y1="65" x2="2.54" y2="65" width="0" layer="20"/>
-<wire x1="2.54" y1="65" x2="0" y2="62.46" width="0" layer="20" curve="90"/>
+<wire x1="34.46" y1="65" x2="3.175" y2="64.6825" width="0" layer="20"/>
+<wire x1="3.175" y1="64.6825" x2="0" y2="62.46" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="62.46" x2="0" y2="2.54" width="0" layer="20"/>
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="20" curve="90"/>
 <text x="6.50875" y="2.2225" size="1.27" layer="25" rot="R180">+5V</text>
 <text x="9.8425" y="6.6675" size="1.27" layer="25" rot="R180">GND</text>
+<text x="5.23875" y="35.40125" size="1.778" layer="25" rot="R90">universal data aquisition
+ network module v.1.0</text>
+<text x="34.13125" y="40.3225" size="1.4224" layer="25" rot="R90">github.com/NicoZellinger/
+SensorMonitoring</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1945,9 +1949,9 @@ or will meet your specific requirements.&lt;p&gt;
 <attribute name="NAME" x="32.385" y="13.17625" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="31.75" y="9.8425" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C6" library="rcl" package="C0805" value="20p" x="35.56" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.76625" y="15.71625" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="38.1" y="16.51" size="1.27" layer="27" rot="R90"/>
+<element name="C6" library="rcl" package="C0805" value="20p" x="35.40125" y="17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.6075" y="15.71625" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="37.94125" y="16.51" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C7" library="rcl" package="C0805" value="100n" x="30.48" y="9.525" smashed="yes" rot="MR0">
 <attribute name="NAME" x="32.385" y="10.31875" size="1.27" layer="26" rot="MR180"/>
@@ -1993,9 +1997,9 @@ or will meet your specific requirements.&lt;p&gt;
 <attribute name="NAME" x="4.445" y="28.73375" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="3.175" y="25.4" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R11" library="rcl" package="R0805" value="390" x="32.7025" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.90875" y="15.71625" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="35.2425" y="17.145" size="1.27" layer="27" rot="R90"/>
+<element name="R11" library="rcl" package="R0805" value="390" x="32.86125" y="17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="32.0675" y="15.71625" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="35.40125" y="17.145" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R12" library="rcl" package="R0805" value="10k" x="2.54" y="22.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="4.445" y="23.65375" size="1.27" layer="26" rot="MR180"/>
@@ -2035,7 +2039,7 @@ or will meet your specific requirements.&lt;p&gt;
 </element>
 <element name="U$5" library="breakout_base" package="BREAKOUT_FOOTPRINT_V1" value="BREAKOUT_FP_V1" x="33.655" y="63.1825" rot="MR270"/>
 <element name="R4" library="rcl" package="R0805" value="10k" x="7.46125" y="58.7375" smashed="yes" rot="R270">
-<attribute name="NAME" x="4.92125" y="59.84875" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="8.255" y="60.6425" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="4.92125" y="59.3725" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP1" library="pinhead" package="1X02SMD" value="" x="6.50875" y="3.81" smashed="yes">
@@ -2411,8 +2415,8 @@ or will meet your specific requirements.&lt;p&gt;
 <contactref element="R11" pad="2"/>
 <wire x1="34.13125" y1="22.7965" x2="34.13125" y2="18.7325" width="0.254" layer="1"/>
 <wire x1="34.13125" y1="18.7325" x2="34.13375" y2="18.73" width="0.254" layer="1"/>
-<wire x1="34.13375" y1="18.73" x2="35.56" y2="18.73" width="0.254" layer="1"/>
-<wire x1="32.7025" y1="18.73" x2="34.13375" y2="18.73" width="0.254" layer="1"/>
+<wire x1="34.13375" y1="18.73" x2="35.40125" y2="18.73" width="0.254" layer="1"/>
+<wire x1="32.86125" y1="18.73" x2="34.13375" y2="18.73" width="0.254" layer="1"/>
 </signal>
 <signal name="OSC_IN">
 <contactref element="QUARZ-HC49" pad="2"/>
@@ -2442,7 +2446,7 @@ or will meet your specific requirements.&lt;p&gt;
 <wire x1="30.7975" y1="17.93875" x2="31.90875" y2="16.8275" width="0.254" layer="1"/>
 <wire x1="31.90875" y1="16.8275" x2="32.385" y2="16.8275" width="0.254" layer="1"/>
 <wire x1="32.385" y1="16.8275" x2="32.7025" y2="16.8275" width="0.254" layer="1"/>
-<wire x1="32.7025" y1="16.83" x2="32.3875" y2="16.83" width="0.254" layer="1"/>
+<wire x1="32.86125" y1="16.83" x2="32.3875" y2="16.83" width="0.254" layer="1"/>
 <wire x1="32.3875" y1="16.83" x2="32.385" y2="16.8275" width="0.254" layer="1"/>
 </signal>
 <signal name="N$8">
@@ -2799,4 +2803,10 @@ or will meet your specific requirements.&lt;p&gt;
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
