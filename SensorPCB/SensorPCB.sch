@@ -7445,7 +7445,7 @@ STM32L051x8</text>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="QUARZ-HC49" library="quarz_hc49_smd" deviceset="QUARZ_HC49-SMD" device=""/>
+<part name="QUARZ" library="quarz_hc49_smd" deviceset="QUARZ_HC49-SMD" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
@@ -7535,7 +7535,7 @@ STM32L051x8</text>
 <instance part="SUPPLY9" gate="GND" x="132.08" y="86.36" rot="R90"/>
 <instance part="+3V6" gate="G$1" x="109.22" y="10.16" rot="R180"/>
 <instance part="SUPPLY11" gate="GND" x="104.14" y="12.7"/>
-<instance part="QUARZ-HC49" gate="G$1" x="27.94" y="68.58" rot="R90"/>
+<instance part="QUARZ" gate="G$1" x="27.94" y="68.58" rot="R90"/>
 <instance part="SUPPLY10" gate="GND" x="10.16" y="66.04" rot="R270"/>
 <instance part="SUPPLY12" gate="GND" x="10.16" y="71.12" rot="R270"/>
 <instance part="SUPPLY13" gate="GND" x="172.72" y="220.98" rot="R270"/>
@@ -7984,7 +7984,7 @@ STM32L051x8</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="QUARZ-HC49" gate="G$1" pin="1"/>
+<pinref part="QUARZ" gate="G$1" pin="1"/>
 <junction x="27.94" y="66.04"/>
 <wire x1="27.94" y1="66.04" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -7994,7 +7994,7 @@ STM32L051x8</text>
 </net>
 <net name="OSC_IN" class="0">
 <segment>
-<pinref part="QUARZ-HC49" gate="G$1" pin="2"/>
+<pinref part="QUARZ" gate="G$1" pin="2"/>
 <pinref part="STM32L051C8T6" gate="G$1" pin="OSC_IN"/>
 <wire x1="43.18" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
 <junction x="27.94" y="71.12"/>

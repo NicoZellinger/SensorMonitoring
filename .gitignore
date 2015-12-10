@@ -1,6 +1,6 @@
 # Ordner
 /old/
-/datasheets/not_public/
+/not_public/
 
 # eagle
 *.s#?
