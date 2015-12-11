@@ -1082,7 +1082,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheets>
 <sheet>
 <plain>
-<text x="99.06" y="165.1" size="1.778" layer="91">Beschriftung auf Platine erg.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
