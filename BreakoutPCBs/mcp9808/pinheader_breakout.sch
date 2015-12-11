@@ -3925,12 +3925,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND1" library="supply1" deviceset="GNDIO" device=""/>
 <part name="MCP9808" library="mcp9808" deviceset="MCP9808-E/MS" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="1k8"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1k8"/>
+<part name="GND2" library="supply1" deviceset="GNDIO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3948,12 +3948,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND1" gate="G$1" x="53.34" y="124.46" rot="R270"/>
 <instance part="MCP9808" gate="A" x="165.1" y="111.76"/>
 <instance part="+3V9" gate="G$1" x="144.78" y="142.24"/>
-<instance part="SUPPLY22" gate="GND" x="144.78" y="88.9"/>
 <instance part="SUPPLY23" gate="GND" x="137.16" y="88.9"/>
 <instance part="+3V10" gate="G$1" x="137.16" y="142.24"/>
 <instance part="+3V11" gate="G$1" x="127" y="142.24"/>
 <instance part="R9" gate="G$1" x="137.16" y="129.54" rot="R90"/>
 <instance part="R10" gate="G$1" x="127" y="129.54" rot="R90"/>
+<instance part="GND2" gate="G$1" x="144.78" y="88.9"/>
 </instances>
 <busses>
 </busses>
@@ -3988,12 +3988,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="MCP9808" gate="A" pin="GND"/>
-<wire x1="147.32" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="SUPPLY22" gate="GND" pin="GND"/>
-<wire x1="144.78" y1="91.44" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="MCP9808" gate="A" pin="A1"/>
 <wire x1="147.32" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="MCP9808" gate="A" pin="A2"/>
@@ -4015,6 +4009,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="55.88" y1="124.46" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="G$1" pin="GNDIO"/>
 </segment>
+<segment>
+<pinref part="MCP9808" gate="A" pin="GND"/>
+<wire x1="147.32" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="91.44" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="G$1" pin="GNDIO"/>
+</segment>
 </net>
 <net name="NSS" class="0">
 <segment>
@@ -4035,13 +4035,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="U$1" gate="G$1" pin="PB4/SPI_MISO"/>
 <wire x1="104.14" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
 <label x="109.22" y="124.46" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="MOSI" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB5/SPI_MOSI"/>
-<wire x1="104.14" y1="121.92" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
-<label x="109.22" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA4" class="0">
@@ -4084,13 +4077,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="U$1" gate="G$1" pin="PB1"/>
 <wire x1="104.14" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
 <label x="109.22" y="91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PB2" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB2"/>
-<wire x1="104.14" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
-<label x="109.22" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -4138,6 +4124,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="MCP9808" gate="A" pin="ALERT"/>
 <wire x1="182.88" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
 <label x="185.42" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB5/SPI_MOSI"/>
+<wire x1="104.14" y1="121.92" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
+<label x="109.22" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PB2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB2"/>
+<wire x1="104.14" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
+<label x="109.22" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
