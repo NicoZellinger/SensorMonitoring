@@ -6,7 +6,7 @@ In this project a system should be developed which is possible to carry out seve
 Afterwards in the central system the measuring results should be evaluated and documented for a period. 
 
 ![Bottom](https://github.com/NicoZellinger/SensorMonitoring/blob/master/docu/v10_b3.png)
-![Bottom](https://github.com/NicoZellinger/SensorMonitoring/blob/master/docu/v10_t2.png)
+![top](https://github.com/NicoZellinger/SensorMonitoring/blob/master/docu/v10_t1_2.png)
 
 
 # Hardware
