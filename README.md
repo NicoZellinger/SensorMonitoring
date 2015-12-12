@@ -1,4 +1,5 @@
-# SensorMonitoring
+# SensorMonitoring aka. Universal Data Aquisition Network System
+
 In this project a system should be developed which is possible to carry out several sensor measurements and to send the values over WLAN to a central system. 
 Afterwards in the central system the measuring results should be evaluated and documented for a period. 
 
