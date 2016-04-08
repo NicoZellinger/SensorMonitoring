@@ -1,6 +1,12 @@
-# SensorMonitoring
+#Universal Data Aquisition Network System
+
+
+#SensorMonitoring
 In this project a system should be developed which is possible to carry out several sensor measurements and to send the values over WLAN to a central system. 
 Afterwards in the central system the measuring results should be evaluated and documented for a period. 
+
+![Bottom](https://github.com/NicoZellinger/SensorMonitoring/blob/master/docu/v10_b3.png)
+![top](https://github.com/NicoZellinger/SensorMonitoring/blob/master/docu/v10_t1_2.png)
 
 
 # Hardware

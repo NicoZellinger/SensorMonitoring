@@ -1,0 +1,41 @@
+Partlist
+
+Exported from SensorPCB.sch at 12.12.15 22:51
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part          Value          Device                    Package               Library               Sheet
+
+BREAKOUTBOARD BREAKOUT_FP_V1 BREAKOUT_FP_V1            BREAKOUT_FOOTPRINT_V1 breakout_base         1
+C1            470n           C-EUC0805                 C0805                 rcl                   1
+C3            10u            C-EUC0805                 C0805                 rcl                   1
+C4            20p            C-EUC0805                 C0805                 rcl                   1
+C5            100n           C-EUC0805                 C0805                 rcl                   1
+C6            20p            C-EUC0805                 C0805                 rcl                   1
+C7            100n           C-EUC0805                 C0805                 rcl                   1
+C8            100n           C-EUC0805                 C0805                 rcl                   1
+C9            1u             C-EUC0805                 C0805                 rcl                   1
+C10           100n           C-EUC0805                 C0805                 rcl                   1
+ESP8266-12E                  ESP8266-12EESP8266-ESP12E ESP8266-ESP12E        ESP8266-ESP12E        1
+IRF7301_S     IRF7301        IRF7301                   IRF7301_PACK_SO8      irf7301_symb          1
+IRF7301_W     IRF7301        IRF7301                   IRF7301_PACK_SO8      irf7301_symb          1
+JP1                          PINHD-1X2_2.54-SMD        1X02SMD               pinhead               1
+LM3940        LM3940         LM3940                    LM3940_PACK           lm3940                1
+PHD                          PINHD-1X7_2.54-SMD        1X07SMD               pinhead               1
+QUARZ         QUARZ_HC49-SMD QUARZ_HC49-SMD            HC49-SMD              quarz_hc49_smd        1
+R1            100k           R-EU_R0805                R0805                 rcl                   1
+R2            150            R-EU_R0805                R0805                 rcl                   1
+R3            150            R-EU_R0805                R0805                 rcl                   1
+R4            10k            R-EU_R0805                R0805                 rcl                   1
+R6            100k           R-EU_R0805                R0805                 rcl                   1
+R7            10k            R-EU_R0805                R0805                 rcl                   1
+R8            10k            R-EU_R0805                R0805                 rcl                   1
+R9            1k8            R-EU_R0805                R0805                 rcl                   1
+R10           1k8            R-EU_R0805                R0805                 rcl                   1
+R11           390            R-EU_R0805                R0805                 rcl                   1
+R12           10k            R-EU_R0805                R0805                 rcl                   1
+STM32L051C8T6 STM32L051X6/8  STM32L051X6/8             LQFP48                STM32L051x6_LQFP48XXL 1
+T1            33u            CAP_TANTAL_1206           1206                  CAP_TANTAL_1206       1
+U$1           KZH_20SMD      KZH_20SMD                 KHZ_20SMD             KZH_20SMD             1

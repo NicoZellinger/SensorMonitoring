@@ -1,0 +1,43 @@
+\documentclass[a4paper,fontsize=12pt,fleqn]{scrartcl}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}												
+\usepackage[automark]{scrpage2}
+
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\hypersetup{unicode=true,colorlinks=true,urlcolor=black,citecolor=black,linkcolor=black}
+
+\usepackage{caption}
+\captionsetup[figure]{skip=10pt}
+
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{subfigure} 
+\usepackage{tabularx}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\pagestyle{scrheadings}
+\renewcommand*{\sectionmarkformat}{}
+\clearscrheadfoot{}
+\setkomafont{pagenumber}{\bfseries}
+\ohead[]{Bill of Materials}
+ \cfoot{\raisebox{-4.5mm}{-{ }\pagemark{ }-}} 
+\usepackage{anyfontsize}
+\usepackage{geometry}
+\geometry{a4paper, top=27mm, left=25mm, right=20mm, bottom=35mm, headsep=10mm, footskip=20mm}
+\usepackage{setspace} 
+\onehalfspacing
+
+\begin{document}
+
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+%
+\input{source/BOM}
+
+
+\end{document}
