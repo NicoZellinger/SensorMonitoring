@@ -1,12 +1,23 @@
 # setup dev environment
-- Download and install STM32CubeMX
-- Download and install System Workbench from openstm32
+Download and install System Workbench from [openstm32](http://www.openstm32.org/HomePage)
 
-Create Project in STM32CubeMX.  
-Select SW4STM32 as Toolchain/IDE in CubeMX Settings.  
-Consider using FreeRTOS because its really cool :P  
+or:  
+Integrate System Workbench in your existing Eclipse. Read on the [openstm32](http://www.openstm32.org/HomePage)
+website how to do this.
 
-After creating project and generating source, open it
-in System Workbench. Should run out of the box.
 
-By the way: System Workbench is available for Linux too.
+Open System Workbench or Eclipse and create a workspace or use your existing.
+
+Close this git repo to your harddrive somewhere (must not be inside the workspace).
+
+*Click File* > *Import* > *Existing Project into Workspace*  
+Browse to the git repo and select *firmware/fw_v1* folder.
+
+Uncheck *Copy projects into workspace* and click *Finish*.  
+Now you have your project in the project explorer and can work with it
+and sync your changes to git.
+
+To flash the project, rightclick on the project and select *Target* > *Program chip...*
+and check *Reset after program*.
+
+Have fun!
